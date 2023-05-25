@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"museo-300";
+    src: url(../assets/fonts/Museo\ 300.otf);
+}
+@font-face {
+    font-family:"nova";
+    src: url(../assets/fonts/FontsFree-Net-Proxima-Nova-Black.otf);
+}
+@font-face {
+    font-family: "museo-700";
+    src: url(../assets/fonts/Museo700-Regular.otf);
+}
+/*Nav bar*/
+
+.logo {
+    width: 173px;
+    height: 173px;
+}
+nav {
+    background-color: #131326;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 195px;
+    margin: 0;
+}
+ul{
+    padding: 80px;
+    list-style: none;
+    display: contents;  
+
+}
+li a{
+        text-decoration: none;
+        color: white;
+        font-family:"museo-300";
+        font-size: 30px;
+}
+
+/*Comienzo Header*/
+header{
+    background-image: url(../assets/img/fondo-main.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    align-items: center;
+    font-family: "nova";
+    color: #FFE3FE;
+    height: 820px;
+    display: flex;
+    padding: 0 32px;
+}    
+
+button {
+    font-family: "nova";
+    color: #440A67;
+    font-size: 40px;
+    text-decoration: none;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+    -webkit-box-shadow: 1px 1px 2px #f7e8f7;
+    -moz-box-shadow: 1px 1px 2px #f7e8f7;
+    box-shadow: 1px 1px 2px #f7e8f7;
+    text-shadow: 0px 2px 0px #FFE3FE;
+    background: #FFE3FE;
+    padding: 20px;
+    position: relative;
+    top: -223px;
+    left: 375px;
+}
+header h2 {
+    text-align: center;
+    display: flex;
+    width: 588px;
+    height: 478px;
+    font-size: 65px;
+    margin: 159px;
+}
+
+/*Comienzo body Super metroid*/
+
+.metroid{
+    padding: 30px;
+    background-image: url(../assets/img/fondo-semana.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "nova";
+    color: white;
+    text-align: center;
+}
+.metroid h3 {
+    display: block;
+    width: 100%;
+    padding: 30px;
+    font-size: 40px;
+}
+p a{
+    text-decoration: none;
+    color: #E5BEEC;
+    position: relative;
+    bottom: 19px;
+    font-size: 40px;
+}
+.ofertaMetroid{
+    color: red;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.mikasa{
+    color: orange;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 40px;
+}
+.ciego{
+    color: red;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    bottom: 19px;
+    font-size: 40px;
+
+}
+.monkey{
+    color: pink;
+    font-size: 40px;
+    position: relative;
+    bottom: 19px;
+    font-size: 40px;
+}
+article img{
+    width: 300px;
+}
+article{
+    background: rgba(42, 47, 79, 0.7);
+    border: 3px solid #FFFFFF;
+    display: inline-block;
+    width: 332px;
+    margin:50px;
+}
+
+/*Comienzo Poleras*/
+.poleras{
+    background-image: url(../assets/img/poleras_fondo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.poleras1{
+    display: flex;
+    justify-content: center;
+}
+
+.poleras h3{
+    display: block;
+    width: 100%;
+    padding: 30px;
+    font-size: 40px;
+    font-family: "nova";
+    color: #FFFFFF;
+    text-align: center;
+}
+div img{
+    display: flex;
+    justify-content: center;
+}
+.polerasFondo{
+    background: rgba(37, 39, 70, 0.7);
+    position: relative;
+    top: -400px;
+}
+.button {
+    font-family: "museo-300";
+    color: rgba(42, 47, 79, 1);
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #2926c9;
+    -moz-box-shadow: 0px 1px 3px #2926c9;
+    box-shadow: 0px 1px 3px #2926c9;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    position: relative;
+    top: -291px;
+    left: 720px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Comienzo Categorias*/
+
+.majorask h2{
+    color: white;
+    padding: 50px;
+    font-size: 50px;
+    font-family: "nova";
+    display: flex;
+    justify-content: center;
+
+}
+.majorask h3{
+    color: white;
+    text-align: center;
+}
+.majorask p{
+    color: white;
+    font-size: 20px;
+    font-family: "museo-300";
+    text-align: center;
+    margin: 5px;;
+}
+.majorask strong{
+color: rgba(255, 168, 0, 1);
+font-family: "museo-700";
+bottom: 50px;
+}
+.majorask{
+    background-image: url(../assets/img/fondo-semana.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Contacto*/
+.contacto{
+    color: white;
+    padding: 50px;
+    font-size: 50px;
+    font-family: "nova";
+    display: flex;
+    justify-content: center;
+}
+.fondoContacto{
+    background-color: #E5BEEC;
+    width: 100%;    
+}
+form{
+    font-size: 20px;
+    font-family: "museo-700";
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -25px;
+    left: 857px;
+}
+
+/*Comienzo Footer*/
+
+footer{
+    background-color: #131326;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 195px;
+    margin: 0;
+    font-family: "museo-700";
+}
+ul li .footer{
+    list-style: none;
+}
+/*Comienzo RESPONSIVE*/
+
+@media (max-width:1024px){
+    nav{
+        background-color: #131326;
+        justify-content: space-around;
+        height: 80px;
+        width: 100%;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    header{ 
+        background-image: url(../assets/img/back1.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    header h2 {
+        color: white;
+        display: flex;
+        font-size: 10vw;
+
+    }
+    button {
+        font-family: "nova";
+        color: #440A67;
+        font-size: 40px;
+        text-decoration: none;
+        -webkit-border-radius: 23px;
+        -moz-border-radius: 23px;
+        border-radius: 23px;
+        -webkit-box-shadow: 1px 1px 2px #f7e8f7;
+        -moz-box-shadow: 1px 1px 2px #f7e8f7;
+        box-shadow: 1px 1px 2px #f7e8f7;
+        text-shadow: 0px 2px 0px #FFE3FE;
+        background: #FFE3FE;
+        padding: 20px;
+        position: relative;
+        top: -105px;
+        left: 375px;
+}
+    
+    .metroid{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas:
+        "p  p  p"
+        "ofertaMetroid ofertaMetroid ofertaMetroid"
+        "ofertaMetroid ofertaMetroid ofertaMetroid"
+        "ofertaMetroid ofertaMetroid ofertaMetroid";
+    }
+    
+}
+
+
+@media (max-width:768px){
+    nav{
+        background-color: #131326;
+        justify-content: center;
+        height: 80px;
+        height: 50px;
+        padding: 50px;
+    }
+    li a{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    header{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    button {
+        font-family: "nova";
+        color: #440A67;
+        font-size: 40px;
+        text-decoration: none;
+        -webkit-border-radius: 23px;
+        -moz-border-radius: 23px;
+        border-radius: 23px;
+        -webkit-box-shadow: 1px 1px 2px #f7e8f7;
+        -moz-box-shadow: 1px 1px 2px #f7e8f7;
+        box-shadow: 1px 1px 2px #f7e8f7;
+        text-shadow: 0px 2px 0px #FFE3FE;
+        background: #FFE3FE;
+        padding: 20px;
+        position: relative;
+        top: -105px;
+        left: 375px;
+}
+
+@media (max-width:425px){
+    nav{
+        background-color: #131326;
+        height: 30px;
+        height: 30px;
+    }
+    li a{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    header{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+        .h2header{
+        color: white;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        padding-top: 150px;
+        margin: -44px;
+        width: 100%;
+    }
+}}
